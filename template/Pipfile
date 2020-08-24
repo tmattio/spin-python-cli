@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+flake8 = "*"
+black = "*"
+pytest = "*"
+pytest-runner = "*"
+sphinx = "*"
+mypy = "*"
+
+[packages]
+{{ project_slug }} = {editable = true, path = "."}
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
