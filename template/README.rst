@@ -11,4 +11,4 @@ Features
 Contributing
 ------------
 
-To contribute to the project, you can refer to our `Contributing Guide <CONTRIBUTING.md>`_).
+To contribute to the project, you can refer to our `Contributing Guide <CONTRIBUTING.rst>`_.
